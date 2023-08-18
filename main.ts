@@ -22,7 +22,7 @@ function 前進 () {
 }
 let rightSensor = 0
 let leftSensor = 0
-測試用模擬感測器()
+初始設定()
 basic.forever(function () {
     if (leftSensor == 1 && rightSensor == 0) {
         右轉()
